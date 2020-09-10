@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.media{
+    display: flex;
+    align-items: flex-start;
+    background: wheat;
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 75vw;
+    margin-left: 24vw;
+}
+
+.media-opject{
+    margin-left: 1em;
+    width: 10vw;
+
+}
+.media-body{
+    padding:0 1em;
+    flex: 1;
+}
