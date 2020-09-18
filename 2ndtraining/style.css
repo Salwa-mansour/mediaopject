@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+}
+
+
+.media{
+    display: flex;
+    align-items: flex-start;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 50vw; */
+    /* flex-wrap: wrap; */
+}
+.media-opject{
+    margin-right: 1em;
+    margin-top: 1em;
+    /* max-width: 2000px; */
+    /* order: 1; */
+    flex-basis: 50%;
+}
+.media-body{
+    flex-basis: 50%;
+    display: inline-block;
+   
+}
+
+@media (max-width:600px){
+    .media{
+        flex-wrap: wrap;
+    }
+    .media-body,.media-opject{
+        flex-basis: auto;
+    }
+}
