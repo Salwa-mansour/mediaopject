@@ -1,0 +1,23 @@
+.media{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+.media-opject{
+   margin:.5em 1em;
+   flex-basis: 50%;
+}
+.media-body{
+    margin: 1em;
+    flex-basis: 50%;
+    display: inline-block;
+}
+@media (max-width:600px){
+    .media{
+        flex-wrap: wrap;
+    }
+    .media-body , .media-opject{
+        flex-basis: auto;
+    }
+}
