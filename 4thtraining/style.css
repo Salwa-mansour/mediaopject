@@ -1,0 +1,13 @@
+.media{
+    display: flex;
+    align-items: flex-start;
+    min-width: 200px;
+}
+.media-opject{
+    margin-right: 1em;
+    max-width: 15vw;
+}
+.media-body{
+    padding: 0 1em;
+    flex: 1;
+}
